@@ -21,13 +21,13 @@ int main()
         scanf("%d", &p[i]);
     }
     
-    printf("'[");
+    printf("[");
     for(int i = 0; i < n; i++){
         if(i > 0) printf(", ");
         printf("%d", p[i]);
     }
     
-    printf("]'\n");
+    printf("]\n");
     
     free(p);
     
